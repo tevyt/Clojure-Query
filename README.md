@@ -1,36 +1,20 @@
 # clojure-query
 
-FIXME: description
+Get the top results your search queries using either Google or Bing
 
 ## Installation
-
-Download from http://example.com/FIXME.
+Clone the project
+Install leiningen
 
 ## Usage
+Build a jar with `$ lein uberjar`
 
-FIXME: explanation
+### Perform a query
+    $ java -jar clojure-query-0.1.0-standalone.jar [bing|google] [query]
 
-    $ java -jar clojure-query-0.1.0-standalone.jar [args]
+If no search engine arguments are provided a user prompt will be displayed.
 
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
 
 ## License
+Distributed under the Eclipse Public License version 1.0.
 
-Copyright © 2017 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
